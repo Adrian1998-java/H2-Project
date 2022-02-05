@@ -22,7 +22,9 @@
 		<property name="hbm2ddl.auto">create-drop</property>
 		<!-- Mapea las siguientes clases anotadas si trabajásemos con mapeo XML 
 			en lugar de class pondríamos resource -->
-		<mapping class="aed.h2.classes.'nombre-del-la-clase'" />
+		<mapping class="aed.h2.app.Productos" />
+		<mapping class="aed.h2.app.Clientes" />
+		<mapping class="aed.h2.app.Tienda" />
 		
 		<!-- la siguiente linea solo en el caso de usar mapeo con ficheros xml -->
 		<!-- <mapping resource="Persona.hbm.xml"/> -->
